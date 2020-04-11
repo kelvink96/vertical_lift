@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background: #565279;
+}
+
+.lift-container {
+    width: 800px;
+    height: 300px;
+    position: relative;
+}
+
+.lift-container svg {
+    position: absolute;
+}
+
+.lift-container svg rect {
+    fill: rgb(255, 196, 0);
+    stroke-width: 0.5;
+    stroke: rgb(83, 64, 1);
+}
+
+.lift-container svg path {
+    width: 7px;
+    height: 10px;
+    fill: none;
+    stroke: #DABDD8;
+    stroke-width: 5;
+    stroke-dasharray: 10, 10;
+}
+
+.lift-container svg polygon {
+    fill: orange;
+}
+
+body {
+    margin: 0;
+    background: #565279;
+}
+
+.outerWrapper {
+    width: 800px;
+    height: 300px;
+    position: relative;
+}
+
+.outerWrapper svg {
+    position: absolute;
+}
+
+.outerWrapper svg path {
+    fill:none;
+    stroke:#DABDD8;
+    stroke-width:5;
+    stroke-dasharray:10,10;
+}
+
+.outerWrapper svg polygon {
+    fill:orange;
+}
